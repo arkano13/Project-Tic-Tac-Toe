@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>      
+    <body>
+    
+
+        <div class="container">
+           <dialog  class="dialog" >
+            
+                <div class="player1">
+                    <label for="Plyername1" >Player 1 </label>
+                    <input type="text" id="Plyername1" class="player1" cplaceholder="Gelsyn" pattern="^[A-Za-z0-9]+$" required>
+                </div>
+                <div class="player2">
+                    <label for="Plyername2">Player 2 </label>
+                    <input type="text" id="Plyername2" class="player2" placeholder="Dayarit" pattern="^[A-Za-z0-9]+$" required>    
+            
+                </div>
+            
+        
+                <button class="submit">Submit</button>
+        
+            </dialog>
+    
+            <div class="header">
+    
+              <div class="left"> Tic Tac Toe </div>
+    
+            <div class="right"><img src="img/icon.png" alt="icon img">
+                    Gelsyn Estrada</div>
+    
+    
+             </div>
+             <div class="principal-container">
+                <div class="score">
+                    <div class="result">Result:</div>
+                    <button class="reset">Reset</button>
+                </div>
+    
+                <div class="tictac-container">
+                <div class="body">
+                    <div class="cells cell-top cell-left" data-index="0"></div>
+                    <div class="cells cell-top" data-index="1"></div>
+                    <div class="cells cell-top cell-right" data-index="2"></div>
+                    <div class="cells cell-mid  cell-left" data-index="3"></div>
+                    <div class="cells cell-mid" data-index="4"></div>
+                    <div class="cells cell-mid cell-right" data-index="5"></div>
+                    <div class="cells cell-bottom  cell-left" data-index="6"></div>
+                    <div class="cells cell-bottom " data-index="7"></div>
+                    <div class="cells cell-bottom cell-right" data-index="8"></div>
+                </div>
+                </div>
+              </div>
+        </div>
+    
+        <script src="script.js"></script>
+    </body>
+    </html>
